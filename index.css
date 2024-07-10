@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+}
+
+.bg-container{
+    height: 100vh;
+    background-color: black;
+    padding: 20px;
+}
+.heading{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.para{
+    color: white;
+    max-width: 100px;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+.card-green{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left:3px solid green;
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 200px;
+    color:black;
+    margin-bottom: 30px;
+}
+
+.card-red{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left:3px solid red;
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 200px;
+    color:black;
+    margin-bottom: 30px;
+}
+.card-yellow{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left:3px solid yellow;
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 200px;
+    color:black;
+    margin-bottom: 30px;
+}
+.card-darkblue{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left:3px solid blue;
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 200px;
+    color:black;
+    margin-bottom: 30px;
+}
+.card-silver{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left:3px solid green;
+    padding: 20px;
+    background-color: silver;
+    width: 200px;
+    color:black;
+    margin-bottom: 30px;
+}
+
+p{
+    color: black;
+}
